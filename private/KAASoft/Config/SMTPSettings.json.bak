@@ -1,0 +1,7 @@
+{
+    "userName": "majaz@alexor.co.il",
+    "password": "alexor.co.il",
+    "server": "mail.alexor.co.il",
+    "port": 587,
+    "security": "SSL"
+}

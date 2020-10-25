@@ -1,0 +1,15 @@
+{
+    "databaseConnections": [
+        {
+            "name": "Initial",
+            "databaseType": "mysql",
+            "databaseName": "alexorco_library",
+            "host": "localhost",
+            "port": "3306",
+            "username": "alexorco_root",
+            "password": "sRFoO!RGv28b",
+            "charset": "utf8"
+        }
+    ],
+    "activeConnectionName": "Initial"
+}

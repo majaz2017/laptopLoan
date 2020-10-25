@@ -1,0 +1,7 @@
+{
+    "sendMethod": "smtp",
+    "defaultFromEmailAddress": "no-replay@alexor.co.il",
+    "defaultFromEmailName": "ALEXOR Library - No Replay",
+    "dynamicEmailTemplate": "<h1>Hi! This is email template<\/h1>",
+    "staticEmailTemplate": "<html><body>[DYNAMIC_CONTENT]<\/body><\/html>"
+}
