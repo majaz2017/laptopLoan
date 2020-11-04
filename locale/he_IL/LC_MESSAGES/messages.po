@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 10:49+0300\n"
-"PO-Revision-Date: 2020-11-04 10:58+0200\n"
+"PO-Revision-Date: 2020-11-04 12:44+0200\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1751,7 +1751,7 @@ msgstr "דף אחרון"
 #: d:\dev\library.cms\private\Templates\admin\requests\userRequests.tpl:2
 #: d:\dev\library.cms\themes\default\general\header.tpl:69
 msgid "Requested Books"
-msgstr ""
+msgstr "ניידים מבוקשים"
 
 #: d:\dev\library.cms\private\Templates\admin\general\sidebarMenu.tpl:12
 #: d:\dev\library.cms\private\Templates\admin\issues\userIssuedBooks.tpl:2
@@ -2013,7 +2013,7 @@ msgstr "Api Key"
 
 #: d:\dev\library.cms\private\Templates\admin\googleSettings.tpl:17
 msgid "Max Search Results"
-msgstr ""
+msgstr "תוצאות חיפוש מקסימליות"
 
 #: d:\dev\library.cms\private\Templates\admin\googleSettings.tpl:21
 msgid "Country"
@@ -2021,7 +2021,7 @@ msgstr "מדינה"
 
 #: d:\dev\library.cms\private\Templates\admin\googleSettings.tpl:24
 msgid "Use this country codes"
-msgstr ""
+msgstr "השתמש בקודי מדינה אלה"
 
 #: d:\dev\library.cms\private\Templates\admin\index.tpl:10
 msgid "Total Books"
@@ -2035,11 +2035,11 @@ msgstr "חודש אחרון"
 
 #: d:\dev\library.cms\private\Templates\admin\index.tpl:28
 msgid "Returned Books"
-msgstr ""
+msgstr "ניידים שהוחזרו"
 
 #: d:\dev\library.cms\private\Templates\admin\index.tpl:37
 msgid "Lost Books"
-msgstr ""
+msgstr "ניידים אבודים"
 
 #: d:\dev\library.cms\private\Templates\admin\index.tpl:48
 msgid "Last Issued Books"
@@ -2055,7 +2055,7 @@ msgstr ""
 
 #: d:\dev\library.cms\private\Templates\admin\index.tpl:89
 msgid "Last Requested Books"
-msgstr ""
+msgstr "ניידים מבוקשים אחרונים"
 
 #: d:\dev\library.cms\private\Templates\admin\issues\issue.tpl:2
 msgid "Add Issue"
@@ -2084,11 +2084,11 @@ msgstr "תאריך החזרה"
 #: d:\dev\library.cms\private\Templates\admin\issues\issue.tpl:65
 #: d:\dev\library.cms\private\Templates\admin\issues\issues-list.tpl:26
 msgid "Penalty"
-msgstr ""
+msgstr "קנס"
 
 #: d:\dev\library.cms\private\Templates\admin\issues\issue.tpl:71
 msgid "Book is Lost"
-msgstr ""
+msgstr "נייד אבד"
 
 #: d:\dev\library.cms\private\Templates\admin\issues\issue.tpl:310
 #: d:\dev\library.cms\private\Templates\admin\publishers\publisher.tpl:2
@@ -2142,7 +2142,7 @@ msgstr "אבד"
 #: d:\dev\library.cms\private\Templates\admin\issues\issues.tpl:534
 #: d:\dev\library.cms\private\Templates\admin\issues\userIssuedBooks-list.tpl:89
 msgid "returned"
-msgstr ""
+msgstr "הוחזר"
 
 #: d:\dev\library.cms\private\Templates\admin\issues\issues-list.tpl:66
 msgid "Return Book"
@@ -2474,18 +2474,18 @@ msgstr ""
 
 #: d:\dev\library.cms\private\Templates\admin\requests\request.tpl:2
 msgid "Add Request"
-msgstr ""
+msgstr "הוסף בקשה"
 
 #: d:\dev\library.cms\private\Templates\admin\requests\request.tpl:2
 msgid "Edit Request"
-msgstr ""
+msgstr "ערוך בקשה"
 
 #: d:\dev\library.cms\private\Templates\admin\requests\request.tpl:35
 #: d:\dev\library.cms\private\Templates\admin\requests\requests-list.tpl:48
 #: d:\dev\library.cms\private\Templates\admin\requests\userRequest-list.tpl:42
 #: d:\dev\library.cms\private\KAASoft\Controller\Admin\Request\RequestStatusSetAction.php:81
 msgid "Pending"
-msgstr ""
+msgstr "ממתין ל"
 
 #: d:\dev\library.cms\private\Templates\admin\requests\request.tpl:36
 #: d:\dev\library.cms\private\Templates\admin\requests\requests-list.tpl:50
@@ -2509,25 +2509,25 @@ msgstr ""
 #: d:\dev\library.cms\private\Templates\admin\requests\requests-list.tpl:4
 #: d:\dev\library.cms\private\Templates\admin\requests\userRequest-list.tpl:4
 msgid "Request Date Descending"
-msgstr ""
+msgstr "תאריך בקשה יורד"
 
 #: d:\dev\library.cms\private\Templates\admin\requests\requests-list.tpl:5
 #: d:\dev\library.cms\private\Templates\admin\requests\userRequest-list.tpl:5
 msgid "Request Date Ascending"
-msgstr ""
+msgstr "תאריך בקשה עולה"
 
 #: d:\dev\library.cms\private\Templates\admin\requests\requests-list.tpl:9
 #: d:\dev\library.cms\private\Templates\admin\requests\userRequest-list.tpl:9
 msgid "1 Request"
 msgid_plural "%1 Requests"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "בקשה"
+msgstr[1] "בקשות"
+msgstr[2] "%1 בקשות"
+msgstr[3] "%1 בקשות"
 
 #: d:\dev\library.cms\private\Templates\admin\requests\requests-list.tpl:18
 msgid "Request From"
-msgstr ""
+msgstr "טופס בקשה"
 
 #: d:\dev\library.cms\private\Templates\admin\requests\requests-list.tpl:19
 #: d:\dev\library.cms\private\Templates\admin\requests\userRequest-list.tpl:18
@@ -2538,12 +2538,12 @@ msgstr ""
 #: d:\dev\library.cms\private\Templates\admin\requests\userRequests.tpl:6
 #: d:\dev\library.cms\themes\default\general\header.tpl:62
 msgid "Request Book"
-msgstr ""
+msgstr "בקש נייד"
 
 #: d:\dev\library.cms\private\Templates\admin\requests\requests.tpl:60
 #: d:\dev\library.cms\private\Templates\admin\requests\userRequests.tpl:60
 msgid "Request"
-msgstr ""
+msgstr "בקש"
 
 #: d:\dev\library.cms\private\Templates\admin\requests\requests.tpl:388
 msgid "Book successfully issued."
@@ -2551,7 +2551,7 @@ msgstr "נייד הושאל בהצלחה"
 
 #: d:\dev\library.cms\private\Templates\admin\requests\userRequest-list.tpl:72
 msgid "You don't have any requests yet"
-msgstr ""
+msgstr "אין לך ניידים מבוקשים"
 
 #: d:\dev\library.cms\private\Templates\admin\reviews\review.tpl:2
 #: d:\dev\library.cms\private\Templates\admin\reviews\review.tpl:297
@@ -2560,22 +2560,22 @@ msgstr ""
 
 #: d:\dev\library.cms\private\Templates\admin\reviews\review.tpl:17
 msgid "Review Status (Approved/Pending)"
-msgstr ""
+msgstr "סיקרת סטטוס  (מאושר / ממתין)"
 
 #: d:\dev\library.cms\private\Templates\admin\reviews\review.tpl:62
 #: d:\dev\library.cms\private\Templates\admin\reviews\reviews-list.tpl:6
 #: d:\dev\library.cms\themes\default\books\book.tpl:246
 #: d:\dev\library.cms\themes\simple\books\book.tpl:182
 msgid "Review"
-msgstr ""
+msgstr "סקירה"
 
 #: d:\dev\library.cms\private\Templates\admin\reviews\reviews-list.tpl:37
 msgid "approved"
-msgstr ""
+msgstr "מאושר"
 
 #: d:\dev\library.cms\private\Templates\admin\reviews\reviews-list.tpl:39
 msgid "pending"
-msgstr ""
+msgstr "ממתין ל"
 
 #: d:\dev\library.cms\private\Templates\admin\roles\permissions.tpl:13
 msgid "Update Permissions"
@@ -2591,15 +2591,15 @@ msgstr ""
 
 #: d:\dev\library.cms\private\Templates\admin\roles\role.tpl:2
 msgid "Edit Role"
-msgstr ""
+msgstr "ערוך תפקיד"
 
 #: d:\dev\library.cms\private\Templates\admin\roles\role.tpl:20
 msgid "Role Name"
-msgstr ""
+msgstr "שם תפקיד"
 
 #: d:\dev\library.cms\private\Templates\admin\roles\role.tpl:27
 msgid "Priority"
-msgstr ""
+msgstr "עדיפות"
 
 #: d:\dev\library.cms\private\Templates\admin\roles\role.tpl:33
 msgid "Issue Day Limit"
@@ -2693,7 +2693,7 @@ msgstr "הפעל"
 #: d:\dev\library.cms\private\Templates\admin\users\user-list.tpl:6
 #: d:\dev\library.cms\private\Templates\admin\users\user.tpl:48
 msgid "User Role"
-msgstr ""
+msgstr "תפקיד משתמש"
 
 #: d:\dev\library.cms\private\Templates\admin\users\user-list.tpl:32
 msgid "Active"
@@ -2895,12 +2895,12 @@ msgstr "התקנה"
 #: d:\dev\library.cms\themes\default\auth\passwordRecovery.tpl:23
 #: d:\dev\library.cms\themes\simple\auth\passwordRecovery.tpl:23
 msgid "Recover Password"
-msgstr ""
+msgstr "שחזר סיסמה"
 
 #: d:\dev\library.cms\themes\default\auth\passwordRecovery.tpl:24
 #: d:\dev\library.cms\themes\simple\auth\passwordRecovery.tpl:24
 msgid "Enter your Email and instructions will be sent to you!"
-msgstr ""
+msgstr "הזן את הדוא\"ל שלך וההוראות יישלחו אליך!"
 
 #: d:\dev\library.cms\themes\default\auth\passwordRecovery.tpl:32
 #: d:\dev\library.cms\themes\simple\auth\passwordRecovery.tpl:32
@@ -2934,7 +2934,7 @@ msgstr "קרא פחות"
 #: d:\dev\library.cms\themes\simple\books\books-list-with-filter.tpl:2
 #: d:\dev\library.cms\themes\simple\books\books-list.tpl:2
 msgid "Found <span>"
-msgstr ""
+msgstr "נמצא <span>"
 
 #: d:\dev\library.cms\themes\default\authors\authors-list.tpl:3
 #: d:\dev\library.cms\themes\simple\authors\authors-list.tpl:2
@@ -2987,11 +2987,11 @@ msgstr ""
 #: d:\dev\library.cms\themes\default\books\book.tpl:138
 #: d:\dev\library.cms\themes\simple\books\book.tpl:114
 msgid "Pages:"
-msgstr ""
+msgstr "דפים:"
 
 #: d:\dev\library.cms\themes\default\books\book.tpl:141
 msgid "pages"
-msgstr ""
+msgstr "דפים"
 
 #: d:\dev\library.cms\themes\default\books\book.tpl:148
 #: d:\dev\library.cms\themes\simple\books\book.tpl:123
@@ -3349,7 +3349,7 @@ msgstr ""
 #: d:\dev\library.cms\private\KAASoft\Controller\Admin\Book\BookBulkDeleteAction.php:95
 #: d:\dev\library.cms\private\KAASoft\Controller\Admin\Book\BookBulkEditAction.php:254
 msgid "Couldn't find any book id in request."
-msgstr ""
+msgstr "לא נמצא מזהה נייד בבקשה"
 
 #: d:\dev\library.cms\private\KAASoft\Controller\Admin\Book\BookBulkDeleteAction.php:106
 #, php-format
@@ -3468,7 +3468,7 @@ msgstr ""
 
 #: d:\dev\library.cms\private\KAASoft\Controller\Admin\Book\BookEditAction.php:48
 msgid "Couldn't find requested book."
-msgstr ""
+msgstr "נייד מבוקש לא נמצא"
 
 #: d:\dev\library.cms\private\KAASoft\Controller\Admin\Book\BookEditAction.php:58
 msgid ""
@@ -5247,7 +5247,7 @@ msgstr ""
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\IssueRoutes.php:53
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\IssueRoutes.php:60
 msgid "Issued Book Set Returned"
-msgstr ""
+msgstr "החזר נייד מושאל"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\IssueRoutes.php:66
 msgid "Issue Requested Book"
@@ -5347,7 +5347,7 @@ msgstr ""
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\RequestRoutes.php:64
 msgid "User Requested Books View"
-msgstr ""
+msgstr "תצוגת ספרים המבוקשת על ידי המשתמש"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\ReviewRoutes.php:27
 msgid "Review List View"

@@ -11,7 +11,7 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
     Options +FollowSymlinks
-	RewriteBase /library/alexor
+	RewriteBase /laptoploan/laptopLoan
 
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d

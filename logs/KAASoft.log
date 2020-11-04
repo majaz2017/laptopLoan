@@ -20074,3 +20074,145 @@ Stack trace:
 2020-10-25 01:26:49.340 84.228.230.227  [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] Public route is in using 'adminLogin'[POST:/library/alexor/admin/login].
 2020-10-25 01:26:49.994 84.228.230.227  [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'adminIndex'[GET:/library/alexor/admin/].
 2020-10-25 01:31:22.221 84.228.230.227  [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'userListView'[GET:/library/alexor/admin/users].
+2020-11-03 13:48:19.232 ::1             [FATAL][KAASoft\Controller\ControllerBase:__construct] Critical error is occurred. See details below:
+KAASoft\Util\Exception\DatabaseConnectException: Couldn't connect to database: SQLSTATE[HY000] [1045] Access denied for user 'alexorco_root'@'localhost' (using password: YES) in C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Database\KAASoftDatabase.php:94
+Stack trace:
+#0 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Database\KAASoftDatabase.php(107): KAASoft\Database\KAASoftDatabase->__construct(Object(LoggerRoot))
+#1 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Environment\Locale.php(43): KAASoft\Database\KAASoftDatabase::getInstance(Object(LoggerRoot))
+#2 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\ControllerBase.php(235): KAASoft\Environment\Locale::getDefaultLanguage()
+#3 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\ControllerBase.php(121): KAASoft\Controller\ControllerBase->initGlobalSmartyVariables()
+#4 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\ActionBase.php(57): KAASoft\Controller\ControllerBase->__construct(Object(KAASoft\Environment\Routes\PublicRoute), true)
+#5 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\PublicActionBase.php(29): KAASoft\Controller\ActionBase->__construct(Object(KAASoft\Environment\Routes\PublicRoute), true)
+#6 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\Pub\LoginAction.php(27): KAASoft\Controller\PublicActionBase->__construct(Object(KAASoft\Environment\Routes\PublicRoute), true)
+#7 C:\wamp64\www\laptoploan\laptopLoan\index.php(201): KAASoft\Controller\Pub\LoginAction->__construct(Object(KAASoft\Environment\Routes\PublicRoute))
+#8 C:\wamp64\www\laptoploan\laptopLoan\index.php(227): KAASoft\Index->run()
+#9 {main}
+2020-11-03 13:48:19.268 ::1             [ERROR][KAASoft\Util\Helper:processFatalException] Something very bad is happened.
+KAASoft\Util\Exception\DatabaseConnectException: Couldn't connect to database: SQLSTATE[HY000] [1045] Access denied for user 'alexorco_root'@'localhost' (using password: YES) in C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Database\KAASoftDatabase.php:94
+Stack trace:
+#0 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Database\KAASoftDatabase.php(107): KAASoft\Database\KAASoftDatabase->__construct(Object(LoggerRoot))
+#1 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Environment\Locale.php(43): KAASoft\Database\KAASoftDatabase::getInstance(Object(LoggerRoot))
+#2 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\ControllerBase.php(235): KAASoft\Environment\Locale::getDefaultLanguage()
+#3 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\ControllerBase.php(121): KAASoft\Controller\ControllerBase->initGlobalSmartyVariables()
+#4 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\ActionBase.php(57): KAASoft\Controller\ControllerBase->__construct(Object(KAASoft\Environment\Routes\PublicRoute), true)
+#5 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\PublicActionBase.php(29): KAASoft\Controller\ActionBase->__construct(Object(KAASoft\Environment\Routes\PublicRoute), true)
+#6 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\Pub\LoginAction.php(27): KAASoft\Controller\PublicActionBase->__construct(Object(KAASoft\Environment\Routes\PublicRoute), true)
+#7 C:\wamp64\www\laptoploan\laptopLoan\index.php(201): KAASoft\Controller\Pub\LoginAction->__construct(Object(KAASoft\Environment\Routes\PublicRoute))
+#8 C:\wamp64\www\laptoploan\laptopLoan\index.php(227): KAASoft\Index->run()
+#9 {main}
+2020-11-03 13:51:32.231 ::1             [FATAL][KAASoft\Controller\ControllerBase:__construct] Critical error is occurred. See details below:
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'library.languages' doesn't exist in C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Database\Database.php:287
+Stack trace:
+#0 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Database\Database.php(287): PDO->query('SELECT "Languag...')
+#1 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Database\Database.php(496): KAASoft\Database\Database->query('SELECT "Languag...')
+#2 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Database\KAASoftDatabase.php(223): KAASoft\Database\Database->get('Languages', Array, Array)
+#3 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Environment\Locale.php(45): KAASoft\Database\KAASoftDatabase->getLanguage('ar_SA')
+#4 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\ControllerBase.php(235): KAASoft\Environment\Locale::getDefaultLanguage()
+#5 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\ControllerBase.php(121): KAASoft\Controller\ControllerBase->initGlobalSmartyVariables()
+#6 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\ActionBase.php(57): KAASoft\Controller\ControllerBase->__construct(Object(KAASoft\Environment\Routes\PublicRoute), true)
+#7 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\PublicActionBase.php(29): KAASoft\Controller\ActionBase->__construct(Object(KAASoft\Environment\Routes\PublicRoute), true)
+#8 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\Pub\LoginAction.php(27): KAASoft\Controller\PublicActionBase->__construct(Object(KAASoft\Environment\Routes\PublicRoute), true)
+#9 C:\wamp64\www\laptoploan\laptopLoan\index.php(201): KAASoft\Controller\Pub\LoginAction->__construct(Object(KAASoft\Environment\Routes\PublicRoute))
+#10 C:\wamp64\www\laptoploan\laptopLoan\index.php(227): KAASoft\Index->run()
+#11 {main}
+2020-11-03 13:51:32.233 ::1             [ERROR][KAASoft\Util\Helper:processFatalException] Something very bad is happened.
+PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'library.languages' doesn't exist in C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Database\Database.php:287
+Stack trace:
+#0 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Database\Database.php(287): PDO->query('SELECT "Languag...')
+#1 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Database\Database.php(496): KAASoft\Database\Database->query('SELECT "Languag...')
+#2 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Database\KAASoftDatabase.php(223): KAASoft\Database\Database->get('Languages', Array, Array)
+#3 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Environment\Locale.php(45): KAASoft\Database\KAASoftDatabase->getLanguage('ar_SA')
+#4 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\ControllerBase.php(235): KAASoft\Environment\Locale::getDefaultLanguage()
+#5 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\ControllerBase.php(121): KAASoft\Controller\ControllerBase->initGlobalSmartyVariables()
+#6 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\ActionBase.php(57): KAASoft\Controller\ControllerBase->__construct(Object(KAASoft\Environment\Routes\PublicRoute), true)
+#7 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\PublicActionBase.php(29): KAASoft\Controller\ActionBase->__construct(Object(KAASoft\Environment\Routes\PublicRoute), true)
+#8 C:\wamp64\www\laptoploan\laptopLoan\private\KAASoft\Controller\Pub\LoginAction.php(27): KAASoft\Controller\PublicActionBase->__construct(Object(KAASoft\Environment\Routes\PublicRoute), true)
+#9 C:\wamp64\www\laptoploan\laptopLoan\index.php(201): KAASoft\Controller\Pub\LoginAction->__construct(Object(KAASoft\Environment\Routes\PublicRoute))
+#10 C:\wamp64\www\laptoploan\laptopLoan\index.php(227): KAASoft\Index->run()
+#11 {main}
+2020-11-03 13:52:44.542 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'publicIndex'[GET:/laptoploan/laptopLoan/].
+2020-11-03 13:52:44.617 ::1             [FATAL][KAASoft\Controller\Pub\LoginAction:action] Array
+(
+)
+
+2020-11-03 13:54:06.106 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] Public route is in using 'adminLogin'[GET:/laptoploan/laptopLoan/admin/login].
+2020-11-03 13:54:19.976 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] Public route is in using 'adminLogin'[POST:/laptoploan/laptopLoan/admin/login].
+2020-11-03 13:54:20.165 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'adminIndex'[GET:/laptoploan/laptopLoan/admin/].
+2020-11-03 13:54:28.418 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'languageChange'[GET:/laptoploan/laptopLoan/languageChange/en_US].
+2020-11-03 13:54:28.511 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'adminIndex'[GET:/laptoploan/laptopLoan/admin/].
+2020-11-03 13:54:37.902 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'languageChange'[GET:/laptoploan/laptopLoan/languageChange/ar_SA].
+2020-11-03 13:54:37.994 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'adminIndex'[GET:/laptoploan/laptopLoan/admin/].
+2020-11-04 07:44:00.999 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'publicIndex'[GET:/laptoploan/laptopLoan/].
+2020-11-04 07:44:01.026 ::1             [FATAL][KAASoft\Controller\Pub\LoginAction:action] Array
+(
+)
+
+2020-11-04 07:44:02.880 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] Public route is in using 'adminLogin'[POST:/laptoploan/laptopLoan/admin/login].
+2020-11-04 07:44:03.038 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'publicIndex'[GET:/laptoploan/laptopLoan/].
+2020-11-04 07:44:03.044 ::1             [FATAL][KAASoft\Controller\Pub\LoginAction:action] Array
+(
+)
+
+2020-11-04 07:44:07.573 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] Public route is in using 'adminLogin'[POST:/laptoploan/laptopLoan/admin/login].
+2020-11-04 07:44:07.711 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'publicIndex'[GET:/laptoploan/laptopLoan/].
+2020-11-04 07:44:07.716 ::1             [FATAL][KAASoft\Controller\Pub\LoginAction:action] Array
+(
+)
+
+2020-11-04 07:44:12.577 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'adminIndex'[GET:/laptoploan/laptopLoan/admin].
+2020-11-04 07:46:07.717 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'languageChange'[GET:/laptoploan/laptopLoan/languageChange/ar_SA].
+2020-11-04 07:46:07.807 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'adminIndex'[GET:/laptoploan/laptopLoan/admin].
+2020-11-04 07:46:09.482 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'adminIndex'[GET:/laptoploan/laptopLoan/admin].
+2020-11-04 07:46:10.875 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'adminIndex'[GET:/laptoploan/laptopLoan/admin].
+2020-11-04 07:46:17.181 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'pageViewPublic'[GET:/laptoploan/laptopLoan/languageChange/he-IL].
+2020-11-04 07:46:17.196 ::1             [WARN][KAASoft\Controller\ActionBase:processRequest] Requested unexpected route: '/laptoploan/laptopLoan/languageChange/he-IL'.
+2020-11-04 07:46:17.285 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'pageIsNotFound'[GET:/laptoploan/laptopLoan/404].
+2020-11-04 07:46:17.612 ::1             [FATAL][KAASoft\Controller\ControllerBase:baseEndAction] Critical error is occurred. See details below:
+ --> Smarty: Unable to load template 'file:admin/errors.tpl' in 'public.tpl' <-- 
+2020-11-04 07:46:17.614 ::1             [ERROR][KAASoft\Util\Helper:processFatalException] Something very bad is happened.
+ --> Smarty: Unable to load template 'file:admin/errors.tpl' in 'public.tpl' <-- 
+2020-11-04 07:46:32.084 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'adminIndex'[GET:/laptoploan/laptopLoan/admin].
+2020-11-04 07:47:04.249 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'userListView'[GET:/laptoploan/laptopLoan/admin/users].
+2020-11-04 07:47:07.533 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'languageChange'[GET:/laptoploan/laptopLoan/languageChange/en_US].
+2020-11-04 07:47:07.623 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'userListView'[GET:/laptoploan/laptopLoan/admin/users].
+2020-11-04 07:47:11.497 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'languageChange'[GET:/laptoploan/laptopLoan/languageChange/ar_SA].
+2020-11-04 07:47:11.591 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'userListView'[GET:/laptoploan/laptopLoan/admin/users].
+2020-11-04 07:48:21.067 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'languageChange'[GET:/laptoploan/laptopLoan/languageChange/ar_SA].
+2020-11-04 07:48:21.158 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'userListView'[GET:/laptoploan/laptopLoan/admin/users].
+2020-11-04 07:48:23.469 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'userListView'[GET:/laptoploan/laptopLoan/admin/users].
+2020-11-04 07:48:24.489 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'userListView'[GET:/laptoploan/laptopLoan/admin/users].
+2020-11-04 07:48:25.382 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'userListView'[GET:/laptoploan/laptopLoan/admin/users].
+2020-11-04 07:48:26.032 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'userListView'[GET:/laptoploan/laptopLoan/admin/users].
+2020-11-04 07:48:26.459 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'userListView'[GET:/laptoploan/laptopLoan/admin/users].
+2020-11-04 07:48:29.790 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'languageChange'[GET:/laptoploan/laptopLoan/languageChange/en_US].
+2020-11-04 07:48:29.879 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'userListView'[GET:/laptoploan/laptopLoan/admin/users].
+2020-11-04 07:48:33.110 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'languageChange'[GET:/laptoploan/laptopLoan/languageChange/ar_SA].
+2020-11-04 07:48:33.188 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'userListView'[GET:/laptoploan/laptopLoan/admin/users].
+2020-11-04 07:50:30.780 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'languageChange'[GET:/laptoploan/laptopLoan/languageChange/ar_SA].
+2020-11-04 07:50:30.883 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'userListView'[GET:/laptoploan/laptopLoan/admin/users].
+2020-11-04 08:23:40.071 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'languageListView'[GET:/laptoploan/laptopLoan/admin/languages].
+2020-11-04 08:23:49.902 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'languageListView'[POST:/laptoploan/laptopLoan/admin/languages].
+2020-11-04 08:23:53.166 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'languageListView'[POST:/laptoploan/laptopLoan/admin/languages].
+2020-11-04 08:23:55.575 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'languageChange'[GET:/laptoploan/laptopLoan/languageChange/en_US].
+2020-11-04 08:23:55.667 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'languageListView'[GET:/laptoploan/laptopLoan/admin/languages].
+2020-11-04 08:24:00.589 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'languageChange'[GET:/laptoploan/laptopLoan/languageChange/ar_SA].
+2020-11-04 08:24:00.680 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'languageListView'[GET:/laptoploan/laptopLoan/admin/languages].
+2020-11-04 08:24:06.611 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'languageListView'[POST:/laptoploan/laptopLoan/admin/languages].
+2020-11-04 08:24:34.430 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'languageListView'[POST:/laptoploan/laptopLoan/admin/languages].
+2020-11-04 08:24:37.677 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'pageViewPublic'[GET:/laptoploan/laptopLoan/languageChange/he-IL].
+2020-11-04 08:24:37.683 ::1             [WARN][KAASoft\Controller\ActionBase:processRequest] Requested unexpected route: '/laptoploan/laptopLoan/languageChange/he-IL'.
+2020-11-04 08:24:37.757 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'pageIsNotFound'[GET:/laptoploan/laptopLoan/404].
+2020-11-04 08:24:37.766 ::1             [FATAL][KAASoft\Controller\ControllerBase:baseEndAction] Critical error is occurred. See details below:
+ --> Smarty: Unable to load template 'file:admin/errors.tpl' in 'public.tpl' <-- 
+2020-11-04 08:24:37.767 ::1             [ERROR][KAASoft\Util\Helper:processFatalException] Something very bad is happened.
+ --> Smarty: Unable to load template 'file:admin/errors.tpl' in 'public.tpl' <-- 
+2020-11-04 08:24:43.954 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'languageListView'[GET:/laptoploan/laptopLoan/admin/languages].
+2020-11-04 08:24:47.767 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'adminIndex'[GET:/laptoploan/laptopLoan/admin/].
+2020-11-04 08:24:52.680 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'languageListView'[GET:/laptoploan/laptopLoan/admin/languages].
+2020-11-04 08:25:00.082 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'languageChange'[GET:/laptoploan/laptopLoan/languageChange/he_IL].
+2020-11-04 08:25:00.175 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'languageListView'[GET:/laptoploan/laptopLoan/admin/languages].
+2020-11-04 08:25:06.780 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'adminIndex'[GET:/laptoploan/laptopLoan/admin/].
+2020-11-04 08:25:10.547 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'languageChange'[GET:/laptoploan/laptopLoan/languageChange/ar_SA].
+2020-11-04 08:25:10.638 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'adminIndex'[GET:/laptoploan/laptopLoan/admin/].
+2020-11-04 08:29:37.000 ::1             [INFO][KAASoft\Controller\PublicActionBase:baseStartAction] Public route is in using 'languageChange'[GET:/laptoploan/laptopLoan/languageChange/he_IL].
+2020-11-04 08:29:37.093 ::1             [INFO][KAASoft\Controller\ControllerBase:isPermittedUser] User   [id=1] is using route 'adminIndex'[GET:/laptoploan/laptopLoan/admin/].
