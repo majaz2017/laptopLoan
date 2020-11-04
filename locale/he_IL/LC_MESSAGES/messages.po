@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 10:49+0300\n"
-"PO-Revision-Date: 2020-08-16 11:23+0300\n"
+"PO-Revision-Date: 2020-11-04 10:58+0200\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -465,14 +465,14 @@ msgstr "מחברים"
 #: d:\dev\library.cms\private\Templates\admin\books\booksBarCodeGenerate.tpl:20
 #: d:\dev\library.cms\private\Templates\admin\general\sidebarMenu.tpl:28
 msgid "Add Book"
-msgstr "הוסף ספר"
+msgstr "הוסף נייד"
 
 #: d:\dev\library.cms\private\Templates\admin\books\book.tpl:2
 #: d:\dev\library.cms\private\Templates\admin\books\book.tpl:913
 #: d:\dev\library.cms\themes\default\books\book.tpl:53
 #: d:\dev\library.cms\themes\simple\books\book.tpl:61
 msgid "Edit Book"
-msgstr "ערוך ספר"
+msgstr "ערוך נייד"
 
 #: d:\dev\library.cms\private\Templates\admin\books\book.tpl:7
 #: d:\dev\library.cms\private\Templates\admin\books\books-list.tpl:131
@@ -515,7 +515,7 @@ msgstr "כותרת משנה"
 #: d:\dev\library.cms\private\Templates\admin\books\book.tpl:48
 #: d:\dev\library.cms\private\Templates\admin\csv\importExport.tpl:146
 msgid "Book ID"
-msgstr "מזהה ספר"
+msgstr "מזהה נייד"
 
 #: d:\dev\library.cms\private\Templates\admin\books\book.tpl:54
 #: d:\dev\library.cms\private\Templates\admin\books\viewBook.tpl:21
@@ -830,10 +830,10 @@ msgstr "מיון לפי שנה עולה"
 #: d:\dev\library.cms\themes\simple\books\books-list.tpl:47
 msgid "1 Book"
 msgid_plural "%1 Books"
-msgstr[0] "1 ספר"
-msgstr[1] "2 ספרים"
-msgstr[2] "ספרים"
-msgstr[3] "ספרים"
+msgstr[0] "1 נייד"
+msgstr[1] "2 ניידים"
+msgstr[2] "ניידים"
+msgstr[3] "ניידים"
 
 #: d:\dev\library.cms\private\Templates\admin\books\books-list.tpl:34
 #: d:\dev\library.cms\private\Templates\admin\books\locationBooks-list.tpl:26
@@ -845,7 +845,7 @@ msgstr "בחר הכל"
 #: d:\dev\library.cms\private\Templates\admin\books\locationBooks-list.tpl:35
 #: d:\dev\library.cms\private\Templates\admin\books\storeBooks-list.tpl:35
 msgid "Delete Books"
-msgstr "מחק ספרים"
+msgstr "מחק ניידים"
 
 #: d:\dev\library.cms\private\Templates\admin\books\books-list.tpl:54
 msgid "Generate Barcode"
@@ -856,7 +856,7 @@ msgstr "צור בארקוד"
 #: d:\dev\library.cms\private\Templates\admin\books\locationBooks-list.tpl:46
 #: d:\dev\library.cms\private\Templates\admin\books\storeBooks-list.tpl:46
 msgid "Edit Books"
-msgstr "ערוך ספרים"
+msgstr "ערוך ניידים"
 
 #: d:\dev\library.cms\private\Templates\admin\books\books-list.tpl:58
 #: d:\dev\library.cms\private\Templates\admin\books\books.tpl:135
@@ -878,7 +878,7 @@ msgstr "ערוך ספרים"
 #: d:\dev\library.cms\private\Templates\admin\reviews\review.tpl:26
 #: d:\dev\library.cms\private\Templates\admin\reviews\reviews-list.tpl:4
 msgid "Book"
-msgstr "ספר"
+msgstr "נייד"
 
 #: d:\dev\library.cms\private\Templates\admin\books\books-list.tpl:60
 #: d:\dev\library.cms\private\Templates\admin\books\locationBooks-list.tpl:51
@@ -890,7 +890,7 @@ msgstr "ISBN (10/13)"
 #: d:\dev\library.cms\private\Templates\admin\books\locationBooks-list.tpl:53
 #: d:\dev\library.cms\private\Templates\admin\books\storeBooks-list.tpl:53
 msgid "Issued"
-msgstr "מופק"
+msgstr "הושאל"
 
 #: d:\dev\library.cms\private\Templates\admin\books\books-list.tpl:90
 #: d:\dev\library.cms\private\Templates\admin\books\booksBarCodeGenerate.tpl:178
@@ -946,7 +946,7 @@ msgstr "קרא"
 #: d:\dev\library.cms\themes\default\general\header.tpl:66
 #: d:\dev\library.cms\private\KAASoft\Environment\OptionGroup.php:53
 msgid "Books"
-msgstr "ספרים"
+msgstr "ניידים"
 
 #: d:\dev\library.cms\private\Templates\admin\books\books.tpl:11
 msgid "Manually"
@@ -954,7 +954,7 @@ msgstr "ידני"
 
 #: d:\dev\library.cms\private\Templates\admin\books\books.tpl:14
 msgid "Google Books"
-msgstr "גוגל ספרים"
+msgstr "גוגל ניידים"
 
 #: d:\dev\library.cms\private\Templates\admin\books\books.tpl:39
 #: d:\dev\library.cms\private\Templates\admin\books\books.tpl:53
@@ -1047,7 +1047,7 @@ msgstr "שמור שינויים"
 
 #: d:\dev\library.cms\private\Templates\admin\books\books.tpl:266
 msgid "Add Book With Google Books"
-msgstr "הוסף ספר עם גוגל ספרים"
+msgstr "הוסף נייד עם גוגל ספרים"
 
 #: d:\dev\library.cms\private\Templates\admin\books\books.tpl:326
 msgid "Clear"
@@ -1056,7 +1056,7 @@ msgstr "נקה"
 #: d:\dev\library.cms\private\Templates\admin\books\books.tpl:841
 #: d:\dev\library.cms\private\Templates\admin\books\viewBook.tpl:2
 msgid "View Book"
-msgstr "צפה בספר"
+msgstr "צפה בנייד"
 
 #: d:\dev\library.cms\private\Templates\admin\books\books.tpl:854
 #: d:\dev\library.cms\private\Templates\admin\books\booksBarCodeGenerate.tpl:654
@@ -1067,12 +1067,12 @@ msgstr "צפה בספר"
 #: d:\dev\library.cms\private\Templates\admin\requests\userRequests.tpl:189
 #: d:\dev\library.cms\private\Templates\admin\requests\userRequests.tpl:241
 msgid "Book is required"
-msgstr "ספר נדרש"
+msgstr "נייד נדרש"
 
 #: d:\dev\library.cms\private\Templates\admin\books\booksBarCodeGenerate.tpl:2
 #: d:\dev\library.cms\private\Templates\admin\general\sidebarMenu.tpl:103
 msgid "Book Barcode Generation"
-msgstr "יצירת ברקוד ספר"
+msgstr "יצירת ברקוד לנייד"
 
 #: d:\dev\library.cms\private\Templates\admin\books\booksBarCodeGenerate.tpl:44
 #: d:\dev\library.cms\private\Templates\admin\books\booksBarCodeGenerate.tpl:677
@@ -1080,7 +1080,7 @@ msgstr "יצירת ברקוד ספר"
 #: d:\dev\library.cms\private\Templates\admin\requests\requests.tpl:228
 #: d:\dev\library.cms\private\Templates\admin\requests\userRequests.tpl:228
 msgid "Delete Book"
-msgstr "מחק ספר"
+msgstr "מחק נייד"
 
 #: d:\dev\library.cms\private\Templates\admin\books\booksBarCodeGenerate.tpl:61
 msgid "Preset"
@@ -1322,19 +1322,19 @@ msgstr ""
 
 #: d:\dev\library.cms\private\Templates\admin\books\storeBooks.tpl:7
 msgid "Store %1 Books"
-msgstr "חנות %1 ספרים"
+msgstr "חנות %1 ניידם"
 
 #: d:\dev\library.cms\private\Templates\admin\books\userBooks-list.tpl:4
 #: d:\dev\library.cms\private\Templates\admin\issues\issues-list.tpl:4
 #: d:\dev\library.cms\private\Templates\admin\issues\userIssuedBooks-list.tpl:4
 msgid "Issue Date Descending"
-msgstr ""
+msgstr "תאריך השאלה יורד"
 
 #: d:\dev\library.cms\private\Templates\admin\books\userBooks-list.tpl:5
 #: d:\dev\library.cms\private\Templates\admin\issues\issues-list.tpl:5
 #: d:\dev\library.cms\private\Templates\admin\issues\userIssuedBooks-list.tpl:5
 msgid "Issue Date Ascending"
-msgstr ""
+msgstr "תאריך השאלה עולה"
 
 #: d:\dev\library.cms\private\Templates\admin\books\userBooks-list.tpl:6
 #: d:\dev\library.cms\private\Templates\admin\issues\issues-list.tpl:6
@@ -1353,7 +1353,7 @@ msgstr ""
 #: d:\dev\library.cms\private\Templates\admin\issues\issues-list.tpl:23
 #: d:\dev\library.cms\private\Templates\admin\issues\userIssuedBooks-list.tpl:24
 msgid "Issue Date"
-msgstr "Issue Date"
+msgstr "תאריך השאלה"
 
 #: d:\dev\library.cms\private\Templates\admin\books\userBooks-list.tpl:25
 #: d:\dev\library.cms\private\Templates\admin\issues\issue.tpl:51
@@ -1370,7 +1370,7 @@ msgstr ""
 #: d:\dev\library.cms\private\Templates\admin\books\userBooks-list.tpl:86
 #: d:\dev\library.cms\private\Templates\admin\issues\userIssuedBooks-list.tpl:97
 msgid "You don't have any books yet"
-msgstr "אין לך עדיין ספרים"
+msgstr "אין לך עדיין ניידים"
 
 #: d:\dev\library.cms\private\Templates\admin\books\viewBook.tpl:86
 #: d:\dev\library.cms\private\Templates\admin\csv\importExport.tpl:210
@@ -1644,7 +1644,7 @@ msgstr "חפש"
 
 #: d:\dev\library.cms\private\Templates\admin\general\header.tpl:27
 msgid "By Books"
-msgstr "לפי ספרים"
+msgstr "לפי ניידים"
 
 #: d:\dev\library.cms\private\Templates\admin\general\header.tpl:28
 msgid "By Users"
@@ -1756,7 +1756,7 @@ msgstr ""
 #: d:\dev\library.cms\private\Templates\admin\general\sidebarMenu.tpl:12
 #: d:\dev\library.cms\private\Templates\admin\issues\userIssuedBooks.tpl:2
 msgid "Issued Books History"
-msgstr ""
+msgstr "הסטורית ניידים מושאלים"
 
 #: d:\dev\library.cms\private\Templates\admin\general\sidebarMenu.tpl:18
 #: d:\dev\library.cms\private\Templates\admin\index.tpl:2
@@ -1765,7 +1765,7 @@ msgstr "לוח בקרה"
 
 #: d:\dev\library.cms\private\Templates\admin\general\sidebarMenu.tpl:25
 msgid "All Books"
-msgstr "כל הספרים"
+msgstr "כל הניידים"
 
 #: d:\dev\library.cms\private\Templates\admin\general\sidebarMenu.tpl:31
 #: d:\dev\library.cms\private\Templates\admin\publishers\publishers.tpl:2
@@ -1852,7 +1852,7 @@ msgstr ""
 #: d:\dev\library.cms\private\Templates\admin\issues\issues.tpl:2
 #: d:\dev\library.cms\themes\default\general\header.tpl:72
 msgid "Issued Books"
-msgstr ""
+msgstr "ניידים מושאלים"
 
 #: d:\dev\library.cms\private\Templates\admin\general\sidebarMenu.tpl:119
 msgid "Public"
@@ -2025,7 +2025,7 @@ msgstr ""
 
 #: d:\dev\library.cms\private\Templates\admin\index.tpl:10
 msgid "Total Books"
-msgstr "סה\"כ ספרים"
+msgstr "סה\"כ ניידים"
 
 #: d:\dev\library.cms\private\Templates\admin\index.tpl:20
 #: d:\dev\library.cms\private\Templates\admin\index.tpl:29
@@ -2043,7 +2043,7 @@ msgstr ""
 
 #: d:\dev\library.cms\private\Templates\admin\index.tpl:48
 msgid "Last Issued Books"
-msgstr ""
+msgstr "ניידים מושאלים אחרונים"
 
 #: d:\dev\library.cms\private\Templates\admin\index.tpl:54
 #: d:\dev\library.cms\private\Templates\admin\index.tpl:95
@@ -2059,11 +2059,11 @@ msgstr ""
 
 #: d:\dev\library.cms\private\Templates\admin\issues\issue.tpl:2
 msgid "Add Issue"
-msgstr ""
+msgstr "השאל נייד"
 
 #: d:\dev\library.cms\private\Templates\admin\issues\issue.tpl:2
 msgid "Edit Issue"
-msgstr ""
+msgstr "ערוך השאלה"
 
 #: d:\dev\library.cms\private\Templates\admin\issues\issue.tpl:33
 #: d:\dev\library.cms\private\Templates\admin\issues\issues.tpl:23
@@ -2114,7 +2114,7 @@ msgstr[3] ""
 
 #: d:\dev\library.cms\private\Templates\admin\issues\issues-list.tpl:22
 msgid "Issue To"
-msgstr ""
+msgstr "השאלה ל"
 
 #: d:\dev\library.cms\private\Templates\admin\issues\issues-list.tpl:27
 #: d:\dev\library.cms\private\Templates\admin\issues\userIssuedBooks-list.tpl:28
@@ -2165,7 +2165,7 @@ msgstr ""
 #: d:\dev\library.cms\private\Templates\admin\issues\issues.tpl:6
 #: d:\dev\library.cms\private\Templates\admin\requests\requests-list.tpl:60
 msgid "Issue Book"
-msgstr ""
+msgstr "השאלה נייד"
 
 #: d:\dev\library.cms\private\Templates\admin\issues\issues.tpl:36
 #: d:\dev\library.cms\private\Templates\admin\requests\requests.tpl:35
@@ -2185,7 +2185,7 @@ msgstr ""
 
 #: d:\dev\library.cms\private\Templates\admin\issues\issues.tpl:58
 msgid "Issue"
-msgstr ""
+msgstr "השאל"
 
 #: d:\dev\library.cms\private\Templates\admin\issues\issues.tpl:77
 msgid "Send Notification"
@@ -2547,7 +2547,7 @@ msgstr ""
 
 #: d:\dev\library.cms\private\Templates\admin\requests\requests.tpl:388
 msgid "Book successfully issued."
-msgstr ""
+msgstr "נייד הושאל בהצלחה"
 
 #: d:\dev\library.cms\private\Templates\admin\requests\userRequest-list.tpl:72
 msgid "You don't have any requests yet"
@@ -2603,7 +2603,7 @@ msgstr ""
 
 #: d:\dev\library.cms\private\Templates\admin\roles\role.tpl:33
 msgid "Issue Day Limit"
-msgstr ""
+msgstr "מגבלת יום ההנפקה"
 
 #: d:\dev\library.cms\private\Templates\admin\roles\role.tpl:39
 msgid "Issue Book Limit"
@@ -2824,7 +2824,7 @@ msgstr "Internal server error"
 #: d:\dev\library.cms\themes\simple\500.tpl:26
 msgid ""
 "Looks like we have an internal issue, please try again in couple of minutes."
-msgstr ""
+msgstr "כנראה יש בעיה פנימית, נא לנסות עוד פעם אחרי כמה דקות."
 
 #: d:\dev\library.cms\themes\default\auth\changePassword.tpl:19
 #: d:\dev\library.cms\themes\default\auth\passwordRecovery.tpl:19
@@ -2945,7 +2945,7 @@ msgstr "מחברים </span> סה\"כ"
 #: d:\dev\library.cms\themes\default\index.tpl:141
 #: d:\dev\library.cms\themes\simple\authors\authors-list.tpl:29
 msgid "books"
-msgstr "ספרים"
+msgstr "ניידים"
 
 #: d:\dev\library.cms\themes\default\authors\authors-list.tpl:46
 #: d:\dev\library.cms\themes\simple\authors\authors-list.tpl:40
@@ -3063,14 +3063,14 @@ msgstr "קרא עוד"
 #: d:\dev\library.cms\themes\simple\books\books-list-with-filter.tpl:2
 #: d:\dev\library.cms\themes\simple\books\books-list.tpl:2
 msgid "books</span> in total"
-msgstr "ספרים</span> סה\"כ"
+msgstr "ניידים</span> סה\"כ"
 
 #: d:\dev\library.cms\themes\default\books\books-list-with-filter.tpl:77
 #: d:\dev\library.cms\themes\default\books\books-list.tpl:82
 #: d:\dev\library.cms\themes\simple\books\books-list-with-filter.tpl:44
 #: d:\dev\library.cms\themes\simple\books\books-list.tpl:44
 msgid "Books per page:"
-msgstr "ספרים בדף:"
+msgstr "ניידים  בדף:"
 
 #: d:\dev\library.cms\themes\default\books\books.tpl:2
 #: d:\dev\library.cms\themes\simple\books\books.tpl:2
@@ -3114,7 +3114,7 @@ msgstr ""
 
 #: d:\dev\library.cms\themes\default\general\header.tpl:59
 msgid "My Books"
-msgstr "הספרים שלי"
+msgstr "הניידים שלי"
 
 #: d:\dev\library.cms\themes\default\general\search-filter.tpl:3
 msgid "Book Filter"
@@ -3132,7 +3132,7 @@ msgstr ""
 
 #: d:\dev\library.cms\themes\default\index.tpl:75
 msgid "Last Books"
-msgstr "הספרים האחרונים"
+msgstr "הניידים האחרונים"
 
 #: d:\dev\library.cms\themes\default\index.tpl:124
 msgid "Popular Authors"
@@ -3182,7 +3182,7 @@ msgstr ""
 
 #: d:\dev\library.cms\themes\simple\index.tpl:16
 msgid "last books"
-msgstr "הספרים האחרונים"
+msgstr "הנידים האחרונים"
 
 #: d:\dev\library.cms\private\KAASoft\Controller\ActionBase.php:108
 #, php-format
@@ -3810,12 +3810,12 @@ msgstr ""
 #: d:\dev\library.cms\private\KAASoft\Controller\Admin\Issue\BookLostSetAction.php:78
 #, php-format
 msgid "Couldn't update lost status of Issue.%s%s"
-msgstr ""
+msgstr "עדכון מצב השאלה %s%s לאבוד לא הצליח"
 
 #: d:\dev\library.cms\private\KAASoft\Controller\Admin\Issue\BookReturnedSetAction.php:45
 #, php-format
 msgid "Couldn't get issue by id \"%d\"."
-msgstr ""
+msgstr "לא ניתן היה להשיג את ההשאלה באמצעות המזהה \"%d\"."
 
 #: d:\dev\library.cms\private\KAASoft\Controller\Admin\Issue\BookReturnedSetAction.php:66
 msgid "Issue return date updating is failed for some reason."
@@ -5045,19 +5045,19 @@ msgstr "מחק מחבר"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\BookRoutes.php:38
 msgid "Books List View"
-msgstr "תצוגת רשימת ספרים"
+msgstr "תצוגת רשימת ניידים"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\BookRoutes.php:44
 msgid "Book Create"
-msgstr "צור ספר"
+msgstr "צור ניידים"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\BookRoutes.php:49
 msgid "Book Edit"
-msgstr "ערוך ספר"
+msgstr "ערוך נייד"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\BookRoutes.php:55
 msgid "Book View"
-msgstr "תצוגת ספר"
+msgstr "תצוגת נייד"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\BookRoutes.php:61
 msgid "Book Clone"
@@ -5065,7 +5065,7 @@ msgstr ""
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\BookRoutes.php:68
 msgid "Book Delete"
-msgstr "מחק ספר"
+msgstr "מחק נייד"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\BookRoutes.php:74
 msgid "Book Bulk Delete"
@@ -5077,7 +5077,7 @@ msgstr ""
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\BookRoutes.php:84
 msgid "Book Search"
-msgstr "חפש ספר"
+msgstr "חפש נייד"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\BookRoutes.php:90
 msgid "User Books View"
@@ -5838,7 +5838,7 @@ msgstr "מספר תפריטים לדף"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\SiteViewOptions.php:261
 msgid "Books Per Page [Admin]"
-msgstr "ספרים לדף [Admin]"
+msgstr "ניידים לדף [Admin]"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\SiteViewOptions.php:263
 msgid "Number of books per page in admin part"
