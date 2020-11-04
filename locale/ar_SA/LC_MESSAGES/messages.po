@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-03 16:05+0300\n"
-"PO-Revision-Date: 2020-10-18 10:50+0300\n"
+"PO-Revision-Date: 2020-11-04 09:50+0200\n"
 "Last-Translator: KAASoft <admin@kaasoft.pro>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1040,7 +1040,7 @@ msgstr "جهاز"
 #: d:\dev\library.cms\private\Templates\admin\books\book.tpl:150
 #: d:\dev\library.cms\private\Templates\admin\books\books.tpl:125
 msgid "Manuscript"
-msgstr "manuscrip"
+msgstr "مخطوطة"
 
 #: d:\dev\library.cms\private\templates\admin\books\book.tpl:150
 #: d:\dev\library.cms\private\templates\admin\books\books.tpl:154
@@ -3101,9 +3101,9 @@ msgstr "تاريخ الطلب تصاعدي"
 msgid "1 Request"
 msgid_plural "%1 Requests"
 msgstr[0] "طلب"
-msgstr[1] "طلب "
-msgstr[2] ""
-msgstr[3] ""
+msgstr[1] "طلب"
+msgstr[2] "طلبان"
+msgstr[3] "طلبات"
 msgstr[4] ""
 msgstr[5] ""
 
@@ -3716,7 +3716,7 @@ msgstr "كنت تبحث عنه"
 #: d:\dev\library.cms\themes\simple\epicFail.tpl:5
 #: d:\dev\library.cms\themes\simple\epicFail.tpl:23
 msgid "Epic Fail"
-msgstr " فشل ذريع"
+msgstr "فشل ذريع"
 
 #: d:\dev\library.cms\private\templates\public\general\footer.tpl:9
 #: d:\dev\library.cms\themes\simple\general\footer.tpl:9
@@ -6632,7 +6632,7 @@ msgstr "الرسم الخطي"
 #: d:\dev\library.cms\private\KAASoft\Util\Helper.php:177
 #: d:\dev\library.cms\private\KAASoft\Util\Helper.php:201
 msgid "Trace:"
-msgstr "زهيدة الاثر"
+msgstr "تتبع"
 
 #: d:\dev\library.cms\private\KAASoft\Util\Helper.php:575
 #: d:\dev\library.cms\private\KAASoft\Util\Helper.php:579
