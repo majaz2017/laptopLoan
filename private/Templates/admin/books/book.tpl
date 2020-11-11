@@ -336,8 +336,8 @@
                 $('.save-book').removeClass('btn-outline-secondary disabled').addClass('btn-outline-success');
             });
             $('.date-picker').datepicker({
-                format: "mm/dd/yyyy",
-                keepOpen: true
+            autoclose: true,
+            format: "yyyy-mm-dd"
             });
             $('.isbn-code-10, .isbn-code-13').on('change', function () {
                 onlyDigits($(this));
