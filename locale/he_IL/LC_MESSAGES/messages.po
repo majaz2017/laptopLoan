@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 10:49+0300\n"
-"PO-Revision-Date: 2020-11-04 12:44+0200\n"
+"PO-Revision-Date: 2020-11-11 13:53+0200\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
 "2 : 3);\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "Last-Translator: \n"
 "Language: he_IL\n"
 
@@ -5433,7 +5433,7 @@ msgstr ""
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\UserMessageRoutes.php:32
 msgid "User Message Delete"
-msgstr ""
+msgstr "מחק הודעת משתמש"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\UserMessageRoutes.php:38
 msgid "User Message Set Viewed"
@@ -5441,7 +5441,7 @@ msgstr ""
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\UserRoutes.php:29
 msgid "User List View"
-msgstr ""
+msgstr "תצוגת רשימת משתמשים"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\UserRoutes.php:35
 msgid "User Create"
@@ -5514,19 +5514,19 @@ msgstr "שנה שפה"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\UtilRoutes.php:124
 msgid "Role List View"
-msgstr ""
+msgstr "תצוגת רשימת תפקידים"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\UtilRoutes.php:129
 msgid "Role Create"
-msgstr ""
+msgstr "צור  תפקיד"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\UtilRoutes.php:134
 msgid "Role Edit"
-msgstr ""
+msgstr "ערוך תפקיד"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\UtilRoutes.php:140
 msgid "Role Delete"
-msgstr ""
+msgstr "מחק תפקיד"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\UtilRoutes.php:146
 msgid "Permission List Update"
@@ -5534,15 +5534,15 @@ msgstr ""
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\UtilRoutes.php:151
 msgid "Import CSV"
-msgstr ""
+msgstr "יבוא  של CSV"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\UtilRoutes.php:156
 msgid "Export CSV"
-msgstr ""
+msgstr "יצוא של CSV"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\UtilRoutes.php:160
 msgid "Import/Export"
-msgstr ""
+msgstr "יבוא ויצוא"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\Routes\Admin\UtilRoutes.php:165
 msgid "Menu List View"
@@ -5710,11 +5710,11 @@ msgstr ""
 
 #: d:\dev\library.cms\private\KAASoft\Environment\SiteViewOptions.php:102
 msgid "Everybody"
-msgstr ""
+msgstr "הכל"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\SiteViewOptions.php:103
 msgid "Nobody"
-msgstr ""
+msgstr "אף אחד"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\SiteViewOptions.php:126
 msgid "Press to generate sitemap"
@@ -5738,7 +5738,7 @@ msgstr ""
 
 #: d:\dev\library.cms\private\KAASoft\Environment\SiteViewOptions.php:148
 msgid "No Image"
-msgstr ""
+msgstr "אין תמונה"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\SiteViewOptions.php:150
 msgid "This image will be displayed if image is not specified"
@@ -5746,7 +5746,7 @@ msgstr ""
 
 #: d:\dev\library.cms\private\KAASoft\Environment\SiteViewOptions.php:156
 msgid "No Book"
-msgstr ""
+msgstr "אין נייד"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\SiteViewOptions.php:158
 msgid "This image will be displayed if book image in not specified"
@@ -6046,11 +6046,11 @@ msgstr "תבנית זמן / תאריך"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\SiteViewOptions.php:543
 msgid "Input Date Format"
-msgstr ""
+msgstr "תבנית  תאריך"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\SiteViewOptions.php:545
 msgid "Input date format"
-msgstr ""
+msgstr "תבנית  תאריך"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\SiteViewOptions.php:551
 msgid "Input Date Format [JavaScript]"
@@ -6058,23 +6058,23 @@ msgstr ""
 
 #: d:\dev\library.cms\private\KAASoft\Environment\SiteViewOptions.php:553
 msgid "Input date format for JS"
-msgstr ""
+msgstr "תבנית תאריך עבור גאווה סקריפת"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\SiteViewOptions.php:560
 msgid "Input Date/Time Format"
-msgstr ""
+msgstr "תבנית תאריך / זמן"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\SiteViewOptions.php:562
 msgid "Input date/time format"
-msgstr ""
+msgstr "תבנית תאריך / זמן"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\SiteViewOptions.php:568
 msgid "Input Date/Time Format [JavaScript]"
-msgstr ""
+msgstr "תבנית תאריך עבור גאווה סקריפת"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\SiteViewOptions.php:570
 msgid "Input date/time format for JS"
-msgstr ""
+msgstr "תבנית תאריך עבור גאווה סקריפת"
 
 #: d:\dev\library.cms\private\KAASoft\Environment\SiteViewOptions.php:577
 msgid "Price Currency"
@@ -6306,3 +6306,11 @@ msgstr "ראשון"
 #: d:\dev\library.cms\private\KAASoft\Util\Paginator.php:105
 msgid "Last"
 msgstr "אחרון"
+
+#: d:\dev\library.cms\private\templates\public\books\book.tpl:226
+msgid "Purchase Date"
+msgstr "תאריך קנייה"
+
+#: d:\dev\library.cms\private\templates\public\books\book.tpl:232
+msgid "Warranty Period"
+msgstr "תקופת אחריות"

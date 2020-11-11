@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-03 16:05+0300\n"
-"PO-Revision-Date: 2020-11-11 13:46+0200\n"
+"PO-Revision-Date: 2020-11-11 13:54+0200\n"
 "Last-Translator: KAASoft <admin@kaasoft.pro>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -7524,3 +7524,7 @@ msgstr "التعليقات لكل صفحة [عام]"
 #: d:\dev\library.cms\private\templates\public\books\book.tpl:226
 msgid "Purchase Date"
 msgstr "تأريخ الشراء"
+
+#: d:\dev\library.cms\private\templates\public\books\book.tpl:232
+msgid "Warranty Period"
+msgstr "فترة الضمان"
