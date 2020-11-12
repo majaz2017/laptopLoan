@@ -7528,3 +7528,6 @@ msgstr "تأريخ الشراء"
 #: d:\dev\library.cms\private\templates\public\books\book.tpl:232
 msgid "Warranty Period"
 msgstr "فترة الضمان"
+#: d:\dev\library.cms\private\Templates\admin\users\user-list.tpl:4
+msgid "issued Laptops"
+msgstr " اجهزة مستعارة"
