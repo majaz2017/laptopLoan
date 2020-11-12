@@ -43,6 +43,13 @@
                         {else}
                             <a href="{$routes->getRouteString("userEdit",["userId"=>$user->getId()])}" class="btn btn-outline-info btn-sm {if $activeLanguage->isRTL()}ml-1{else}mr-1{/if}" data-container="body" data-toggle="tooltip" title="{t}Edit{/t}"><i class="fa fa-pencil"></i></a>
                         {/if}
+                          {if isset($currentUser) and $currentUser->getRole() != null and $currentUser->getRole()->getPriority() <= 200}
+                            {if $user->getRole() !== null and $user->getRole()->getId() != 1}
+                                <a href="{$routes->getRouteString("userLaptop",["userId"=>$user->getId()])}" class="btn btn-outline-info btn-sm {if $activeLanguage->isRTL()}ml-1{else}mr-1{/if}" data-container="body" data-toggle="tooltip" title="{t}issued Laptops{/t}"><i class="fa fa-list"></i></a>
+                            {/if}
+                        {else}
+                            <a href="{$routes->getRouteString("userLaptop",["userId"=>$user->getId()])}" class="btn btn-outline-info btn-sm {if $activeLanguage->isRTL()}ml-1{else}mr-1{/if}" data-container="body" data-toggle="tooltip" title="{t}issued Laptops{/t}"><i class="fa fa-list"></i></a>
+                        {/if}
                         {if $user->getRole() !== null and $user->getId() != 1 and $currentUser->getRole()->getPriority() >= 255}
                             <div class="dropdown d-inline" data-trigger="hover" data-toggle="tooltip" title="{t}Delete{/t}">
                                 <button class="btn btn-outline-info btn-sm" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
