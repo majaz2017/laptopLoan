@@ -56,7 +56,7 @@ class UserRoutes implements RoutesInterface
         $routes[UserRoutes::USER_Laptop_ROUTE] = new AdminRoute(
             _("User Laptop"),
             "/user/(\\d+)/userlaptopList[/]??",
-            "Admin\\User\\UserLaptopListAction",
+            "Admin\\User\\UserlaptopListAction",
             "/user/[userId]/userlaptopList",
             ["userId"]
         );

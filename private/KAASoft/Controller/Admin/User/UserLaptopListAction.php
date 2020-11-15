@@ -153,7 +153,7 @@ class UserLaptopListAction extends AdminActionBase
             );
 
 
-            return new DisplaySwitch('admin/users/userLaptopList.tpl');
+            return new DisplaySwitch('admin/users/userlaptopList.tpl');
         }
     }
 }

@@ -66,7 +66,6 @@
                                             {$book->getPublisher()->getName()}
                                         {/if}
                                     </td>
-                                    <td>{if $book->getPublishingYear() != null}{$book->getPublishingYear()}{/if}</td>
                                     <td>
                                         {if $book->getISBN13()}
                                             {$book->getISBN13()}
