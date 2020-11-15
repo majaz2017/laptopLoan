@@ -10,7 +10,6 @@
                             <tr>
                                 <th   class="text-right">{t}Book{/t}</th>
                                 <th   class="text-right">{t}Publisher{/t}</th>
-                                <th style="width: 140px;" class="text-right">{t}Publishing Year{/t}</th>
                                 <th style="width: 150px;" class="text-right">{t}ISBN{/t}</th>
                             </tr>
                         </thead>
@@ -25,7 +24,6 @@
                                             {$book->getPublisher()->getName()}
                                         {/if}
                                     </td>
-                                    <td>{if $book->getPublishingYear() != null}{$book->getPublishingYear()}{/if}</td>
                                     <td>
                                         {if $book->getISBN13()}
                                             {$book->getISBN13()}
@@ -51,7 +49,6 @@
                             <tr>
                                 <th class="text-right">{t}Book{/t}</th>
                                 <th class="text-right">{t}Publisher{/t}</th>
-                                <th style="width: 140px;" class="text-right" >{t}Publishing Year{/t}</th>
                                 <th style="width: 150px;" class="text-right">{t}ISBN{/t}</th>
                             </tr>
                         </thead>
