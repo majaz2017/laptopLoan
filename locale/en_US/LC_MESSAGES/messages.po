@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: LibraryCMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 10:55+0300\n"
-"PO-Revision-Date: 2020-10-18 11:09+0300\n"
+"PO-Revision-Date: 2020-11-16 10:34+0200\n"
 "Last-Translator: KAASoft <admin@kaasoft.pro>\n"
 "Language-Team: \n"
 "Language: en\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: d:\dev\library.cms\private\Templates\admin\admin.tpl:30
 msgid "No Name"
@@ -2104,7 +2104,7 @@ msgstr ""
 #: d:\dev\library.cms\private\Templates\admin\issues\issues-list.tpl:13
 msgid "1 Issue"
 msgid_plural "%1 Books"
-msgstr[0] ""
+msgstr[0] "laptop"
 msgstr[1] "%1 Laptops"
 
 #: d:\dev\library.cms\private\Templates\admin\issues\issues-list.tpl:22
@@ -6298,6 +6298,7 @@ msgstr ""
 #: d:\dev\library.cms\private\KAASoft\Util\Paginator.php:105
 msgid "Last"
 msgstr ""
+
 #: d:\dev\library.cms\private\Templates\admin\users\user-list.tpl:4
 msgid "issued Laptops"
 msgstr "issued Laptops"

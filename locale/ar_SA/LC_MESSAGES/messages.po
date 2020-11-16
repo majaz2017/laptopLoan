@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-03 16:05+0300\n"
-"PO-Revision-Date: 2020-11-15 09:29+0200\n"
+"PO-Revision-Date: 2020-11-15 11:52+0200\n"
 "Last-Translator: KAASoft <admin@kaasoft.pro>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -3282,7 +3282,7 @@ msgstr "غير نشط"
 #: d:\dev\library.cms\private\Templates\admin\users\user.tpl:2
 #: d:\dev\library.cms\private\Templates\admin\users\user.tpl:353
 msgid "Edit User"
-msgstr "تحرير المستخدم # {0}{0}{/0}"
+msgstr "تحرير المستخدم "
 
 #: d:\dev\library.cms\private\templates\admin\users\user.tpl:20
 #: d:\dev\library.cms\private\Templates\admin\users\user.tpl:20
@@ -7532,3 +7532,7 @@ msgstr "فترة الضمان"
 #: d:\dev\library.cms\private\Templates\admin\users\user-list.tpl:4
 msgid "issued Laptops"
 msgstr " اجهزة مستعارة"
+
+#: d:\dev\library.cms\private\Templates\admin\index.tpl:4
+msgid "available Laptops"
+msgstr "أجهزة متاحة"
