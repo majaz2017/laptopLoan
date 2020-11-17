@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-03 16:05+0300\n"
-"PO-Revision-Date: 2020-11-15 11:52+0200\n"
+"PO-Revision-Date: 2020-11-17 10:41+0200\n"
 "Last-Translator: KAASoft <admin@kaasoft.pro>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2248,12 +2248,12 @@ msgstr "كل الأجهزة"
 #: d:\dev\library.cms\private\Templates\admin\general\sidebarMenu.tpl:31
 #: d:\dev\library.cms\private\Templates\admin\publishers\publishers.tpl:2
 msgid "Publishers"
-msgstr "الناشرون"
+msgstr "المصنعون"
 
 #: d:\dev\library.cms\private\templates\admin\general\sidebarMenu.tpl:34
 #: d:\dev\library.cms\private\Templates\admin\general\sidebarMenu.tpl:34
 msgid "All Publishers"
-msgstr "جميع الناشرين"
+msgstr "جميع المصنعون"
 
 #: d:\dev\library.cms\private\templates\admin\general\sidebarMenu.tpl:37
 #: d:\dev\library.cms\private\templates\admin\publishers\publisher.tpl:2
@@ -2262,7 +2262,7 @@ msgstr "جميع الناشرين"
 #: d:\dev\library.cms\private\Templates\admin\publishers\publisher.tpl:2
 #: d:\dev\library.cms\private\Templates\admin\publishers\publishers.tpl:6
 msgid "Add Publisher"
-msgstr "إضافة الناشر"
+msgstr "إضافة مصنع"
 
 #: d:\dev\library.cms\private\templates\admin\general\sidebarMenu.tpl:45
 #: d:\dev\library.cms\private\Templates\admin\general\sidebarMenu.tpl:45

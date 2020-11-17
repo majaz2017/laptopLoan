@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 10:49+0300\n"
-"PO-Revision-Date: 2020-11-11 13:53+0200\n"
+"PO-Revision-Date: 2020-11-17 10:44+0200\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,7 +49,7 @@ msgstr "דוא\"ל"
 #: d:\dev\library.cms\themes\default\books\book.tpl:104
 #: d:\dev\library.cms\themes\simple\books\book.tpl:86
 msgid "Publisher:"
-msgstr "מוציא:"
+msgstr "יצרן:"
 
 #: d:\dev\library.cms\private\Templates\admin\admin.tpl:171
 #: d:\dev\library.cms\private\Templates\admin\books\books.tpl:758
@@ -564,7 +564,7 @@ msgstr "סדרה"
 #: d:\dev\library.cms\themes\simple\publishers\publishers.tpl:2
 #: d:\dev\library.cms\themes\simple\publishers\publishers.tpl:14
 msgid "Publisher"
-msgstr "מוציא"
+msgstr "יצרן"
 
 #: d:\dev\library.cms\private\Templates\admin\books\book.tpl:104
 #: d:\dev\library.cms\private\Templates\admin\books\books.tpl:81
@@ -741,7 +741,7 @@ msgstr "אין מה לשמור."
 
 #: d:\dev\library.cms\private\Templates\admin\books\books-list.tpl:5
 msgid "Title, ISBN, Author, Publisher, Genre"
-msgstr "כותרת, ISBN, מחבר, מוציא , ז'אנר"
+msgstr "כותרת, ISBN, מחבר, יצרן , ז'אנר"
 
 #: d:\dev\library.cms\private\Templates\admin\books\books-list.tpl:14
 #: d:\dev\library.cms\private\Templates\admin\books\locationBooks-list.tpl:6
@@ -1770,17 +1770,17 @@ msgstr "כל הניידים"
 #: d:\dev\library.cms\private\Templates\admin\general\sidebarMenu.tpl:31
 #: d:\dev\library.cms\private\Templates\admin\publishers\publishers.tpl:2
 msgid "Publishers"
-msgstr ""
+msgstr "יצרנים"
 
 #: d:\dev\library.cms\private\Templates\admin\general\sidebarMenu.tpl:34
 msgid "All Publishers"
-msgstr ""
+msgstr "כל היצרנים"
 
 #: d:\dev\library.cms\private\Templates\admin\general\sidebarMenu.tpl:37
 #: d:\dev\library.cms\private\Templates\admin\publishers\publisher.tpl:2
 #: d:\dev\library.cms\private\Templates\admin\publishers\publishers.tpl:6
 msgid "Add Publisher"
-msgstr ""
+msgstr "הוסף יצרן"
 
 #: d:\dev\library.cms\private\Templates\admin\general\sidebarMenu.tpl:45
 msgid "All Series"
@@ -2094,7 +2094,7 @@ msgstr "נייד אבד"
 #: d:\dev\library.cms\private\Templates\admin\publishers\publisher.tpl:2
 #: d:\dev\library.cms\private\Templates\admin\publishers\publisher.tpl:74
 msgid "Edit Publisher"
-msgstr ""
+msgstr "ערוך יצרן"
 
 #: d:\dev\library.cms\private\Templates\admin\issues\issues-list.tpl:8
 msgid "Return Date Descending"
@@ -4089,13 +4089,13 @@ msgstr ""
 #: d:\dev\library.cms\private\KAASoft\Controller\Admin\Publisher\PublisherCreateAction.php:46
 #: d:\dev\library.cms\private\KAASoft\Controller\Admin\Publisher\PublisherEditAction.php:49
 msgid "Publisher saving is failed for some reason."
-msgstr ""
+msgstr "שמירת יצרן נכשלה "
 
 #: d:\dev\library.cms\private\KAASoft\Controller\Admin\Publisher\PublisherCreateAction.php:60
 #: d:\dev\library.cms\private\KAASoft\Controller\Admin\Publisher\PublisherEditAction.php:61
 #, php-format
 msgid "Couldn't save Publisher.%s%s"
-msgstr ""
+msgstr "לא ניתן לשמור יצרנים.%s%s"
 
 #: d:\dev\library.cms\private\KAASoft\Controller\Admin\Publisher\PublisherDeleteAction.php:43
 #, php-format
@@ -6314,9 +6314,11 @@ msgstr "תאריך קנייה"
 #: d:\dev\library.cms\private\templates\public\books\book.tpl:232
 msgid "Warranty Period"
 msgstr "תקופת אחריות"
+
 #: d:\dev\library.cms\private\Templates\admin\users\user-list.tpl:4
 msgid "issued Laptops"
 msgstr "ניידים מושאלים"
+
 #: d:\dev\library.cms\private\Templates\admin\index.tpl:4
 msgid "available Laptops"
 msgstr "ניידים זמינים"
