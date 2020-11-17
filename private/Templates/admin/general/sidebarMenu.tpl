@@ -13,7 +13,7 @@
                 </a>
             </li>
         {/if}
-        {if isset($user) and $user->getRole() != null and $user->getRole()->getPriority() > 100}
+        {if isset($user) and $user->getRole() != null and $user->getRole()->getPriority() >= 100}
             <li class="{if $activeRoute->getName() == 'adminIndex'}active{/if}">
                 <a href="{$routes->getRouteString("adminIndex")}" aria-expanded="false"><img src="{$resourcePath}assets/images/icons/dashboard.png" alt=""><span class="hide-menu">{t}Dashboard{/t}
                 </a>
@@ -27,7 +27,7 @@
                     <li class="{if $activeRoute->getName() == 'bookCreate'}active{/if}">
                         <a href="{$routes->getRouteString("bookCreate")}" class="{if $activeRoute->getName() == 'bookCreate'}active{/if}">{t}Add Book{/t}</a>
                     </li>
-                     {if isset($user) and $user->getRole() != null and $user->getRole()->getPriority() > 255}
+                     {if isset($user) and $user->getRole() != null and $user->getRole()->getPriority() >= 255}
                     <li class="{if $activeRoute->getName() == 'publisherListView' or $activeRoute->getName() == 'publisherCreate' or $activeRoute->getName() == 'publisherEdit'}active{/if}">
                         <a class="has-arrow " href="#" aria-expanded="false">{t}Publishers{/t}</a>
                         <ul aria-expanded="false" class="collapse">
