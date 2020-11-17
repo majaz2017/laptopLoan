@@ -1671,7 +1671,7 @@ class BookDatabaseHelper extends DatabaseHelper
     public function getAvailableLaptopsCount()
     {
 
-        $queryResult =  $this->kaaSoftDatabase->query("SELECT count(id) as count FROM books WHERE id not in (SELECT bookId from issues WHERE returnDate is null)");
+        $queryResult =  $this->kaaSoftDatabase->query("SELECT count(id) as count FROM Books WHERE id not in (SELECT bookId from Issues WHERE returnDate is null)");
         return $queryResult->fetchColumn();
     }
 
