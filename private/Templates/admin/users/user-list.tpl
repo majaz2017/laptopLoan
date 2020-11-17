@@ -5,7 +5,7 @@
             <th class="text-right">{t}User Name{/t}</th>
             <th class="text-right">{t}User Role{/t}</th>
             <th style="width: 90px;" class="text-center">{t}Status{/t}</th>
-            <th style="width: 90px;" class="text-center">{t}Actions{/t}</th>
+            <th style="width: 160px;" class="text-center">{t}Actions{/t}</th>
         </tr>
     </thead>
     <tbody>
@@ -35,7 +35,7 @@
                             {/if}
                         </span>
                     </td>
-                    <td class="text-center">
+                    <td class="text-right">
                         {if isset($currentUser) and $currentUser->getRole() != null and $currentUser->getRole()->getPriority() <= 200}
                             {if $user->getRole() !== null and $user->getRole()->getId() != 1}
                                 <a href="{$routes->getRouteString("userEdit",["userId"=>$user->getId()])}" class="btn btn-outline-info btn-sm {if $activeLanguage->isRTL()}ml-1{else}mr-1{/if}" data-container="body" data-toggle="tooltip" title="{t}Edit{/t}"><i class="fa fa-pencil"></i></a>
