@@ -3,7 +3,16 @@
 {block name=content}
     {if isset($user) and $user->getRole() != null and $user->getRole()->getPriority() >= 200}
         <div class="row">
-            <div class="col-md-6 col-lg-3 col-xlg-3">
+            <div class="col-md-6 col-lg-2 col-xlg-2">
+                <div class="card">
+                    <div class="box bg-danger text-center">
+                        <h1 class="font-light text-white">{$availableLaptops|number_format:0:".":","}</h1>
+                        <h6 class="text-white text-uppercase font-bold mb-0">{t}available Laptops{/t}</h6>
+                        <span class="text-white font-light text-uppercase fs12">&nbsp;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-2 col-xlg-2">
                 <div class="card">
                     <div class="box bg-info text-center">
                         <h1 class="font-light text-white">{$bookTotal|number_format:0:".":","}</h1>
@@ -12,7 +21,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3 col-xlg-3">
+            <div class="col-md-6 col-lg-2 col-xlg-2">
                 <div class="card">
                     <div class="box bg-primary text-center">
                         <h1 class="font-light text-white">{$issueCount|number_format:0:".":","}</h1>
@@ -21,7 +30,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3 col-xlg-3">
+            <div class="col-md-6 col-lg-2 col-xlg-2">
                 <div class="card">
                     <div class="box bg-success text-center">
                         <h1 class="font-light text-white">{$returnCount|number_format:0:".":","}</h1>
@@ -30,7 +39,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3 col-xlg-3">
+            <div class="col-md-6 col-lg-2 col-xlg-2">
                 <div class="card">
                     <div class="box bg-warning text-center">
                         <h1 class="font-light text-white">{$lostCount|number_format:0:".":","}</h1>
